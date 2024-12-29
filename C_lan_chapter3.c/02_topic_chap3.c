@@ -9,7 +9,7 @@ int main(){
     }
 
         else{
-            printf("Your age is not greayer then 10");
+            printf("Your age is not greater then 10");
         }
     return 0;
 }
