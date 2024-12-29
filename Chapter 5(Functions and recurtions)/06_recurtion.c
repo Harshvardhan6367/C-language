@@ -3,7 +3,7 @@
  int factorial(int);
 
  int factorial(int n){
-    if (n == 1 || n == 0)
+    if (n == 1 || n == 0)      // Base condition
     {
         return 1;
     }

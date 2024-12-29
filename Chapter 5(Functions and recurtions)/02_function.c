@@ -5,7 +5,7 @@ int sum(int , int);
 
 // function defination
 int sum(int x ,int y){
-    // printf("the sum is %d\n", x+y);    
+     printf("the sum is %d\n", x+y);    
     return x+y;
 }
 
@@ -14,7 +14,7 @@ int main(){
 
 
     int c11 = sum(a,b);    //function call
-    printf("%d", c11);
+    printf("%d\n", c11);
 
 
 
