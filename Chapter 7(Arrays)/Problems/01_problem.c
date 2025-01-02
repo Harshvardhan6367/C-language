@@ -1,11 +1,14 @@
-#include <stdio.h>
-float c2f(float);
+/*
+    Create an array of 10 numbers. Verify using pointer arithmetic that (ptr+2) points to the third element
+    where ptr is a pointer pointing to the first element of the array.
+*/
 
-float c2f(float c){
-    return ((9*c)/5) +32;
-}
+#include <stdio.h>
+
 int main(){
-    float c = 35;
-    printf("Celcius to fahrenhait for %f is %.2f", c, c2f(c));
+    int Arr[10] = {23, 657, 887, 998, 98, 877, 89, 86, 43, 769};
+    int *ptr = &Arr[0];
+
+    printf("The third element is %d", *(ptr+2));
     return 0;
 }

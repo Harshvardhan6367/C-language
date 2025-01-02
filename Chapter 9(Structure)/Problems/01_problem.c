@@ -1,11 +1,17 @@
+//Create a two-dimensional vector using structures in C.
 #include <stdio.h>
-float c2f(float);
-
-float c2f(float c){
-    return ((9*c)/5) +32;
-}
+struct vector{
+    int x;
+    int y;
+};
 int main(){
-    float c = 35;
-    printf("Celcius to fahrenhait for %f is %.2f", c, c2f(c));
+    struct vector v1,v2;
+    v1.x = 3;
+    v1.y = 4;
+    v2.x = 9;
+    v2.y = 90;
+
+    printf("The vector 1 is : %di +%dj \n", v1.x, v1.y);   
+    printf("The vector 2 is : %di +%dj \n", v2.x, v2.y);   
     return 0;
 }

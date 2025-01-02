@@ -1,12 +1,12 @@
-//Write a program with a structure representing a complex number.
+//Write problem 5’s structure using ‘typedef’ keywords.
 
 #include <stdio.h>
-struct complexNo{
+typedef struct complexNo{
     int real;
     int imaginagy;
-};
+}cmp;
 int main(){
-    struct complexNo c1;
+    cmp c1;
     c1.real = 5;
     c1.imaginagy = 3;
     printf("%d+i%d \n", c1.real, c1.imaginagy);

@@ -1,11 +1,11 @@
-#include <stdio.h>
-float c2f(float);
+/*
+    1. Which of the following is used to appropriately read a multi-word string.
+        1. gets()
+        2. puts()
+        3. printf()
+        4. scanf()
+         
+        ----> gets
 
-float c2f(float c){
-    return ((9*c)/5) +32;
-}
-int main(){
-    float c = 35;
-    printf("Celcius to fahrenhait for %f is %.2f", c, c2f(c));
-    return 0;
-}
+
+*/
